@@ -1,4 +1,4 @@
-[![Notch8](https://raw.githubusercontent.com/notch8/.github/profile/banner.png)](https://notch8.com)
+[![Notch8](https://github.com/notch8/.github/blob/main/.github/profile/banner.png)](https://notch8.com)
 
 <p align="right">
   <a href="https://www.linkedin.com/company/notch8" title="LinkedIn"><img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
