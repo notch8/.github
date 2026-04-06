@@ -5,10 +5,6 @@
   <a href="https://www.notch8.com" title="Contact Us"><img src="https://img.shields.io/badge/Contact_Us-E2732F?style=for-the-badge&logoColor=white" alt="Contact Us"></a>
 </p>
 
-<p align="center">
-  <img src="https://github.com/notch8/.github/blob/main/profile/brand-accent.svg?raw=true" width="100%" height="10" alt="">
-</p>
-
 ### We help institutions build digital repositories scholars actually use
 
 Since 2007, Notch8 has partnered with libraries, universities, and cultural organizations to **design, ship, and sustain** repository software at real-world scale.
