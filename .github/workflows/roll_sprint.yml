@@ -1,6 +1,8 @@
 name: Roll sprint
 on:
+  # Cron is UTC only: 13:00 UTC is 6am PDT, 14:00 UTC is 6am PST. The run step skips the other one.
   schedule:
+    - cron: '0 13 * * 1'
     - cron: '0 14 * * 1'
   workflow_dispatch:
     inputs:
@@ -19,6 +21,13 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - run: python3 .github/scripts/roll_sprint.py ${{ inputs.dry_run && '--dry-run' || '' }}
+      - run: |
+          case "$SCHEDULE:$(TZ=America/Los_Angeles date +%Z)" in
+            "0 13 * * 1:PST"|"0 14 * * 1:PDT")
+              echo "Not 6am Pacific for this trigger, skipping"
+              exit 0 ;;
+          esac
+          python3 .github/scripts/roll_sprint.py ${{ inputs.dry_run && '--dry-run' || '' }}
         env:
           GH_TOKEN: ${{ secrets.VIOLET_BOARD_TOKEN }}
+          SCHEDULE: ${{ github.event.schedule }}
