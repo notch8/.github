@@ -1,0 +1,46 @@
+---
+name: All active clients
+about: For issues that need to be addressed on all or most active clients or clusters
+description: Remove any sections that are not applicable to the issue
+title: ''
+labels: ''
+assignees: ''
+type: Task
+body:
+- type: markdown
+  attributes:
+    value: |
+      
+      ### Clusters
+      #### Staging
+      - [ ] r2-friends
+      - [ ] utk-staging
+      - [ ] enact-staging
+
+      #### Production / mixed
+      - [ ] r2-besties
+      - [ ] r2-bl-ethos
+      - [ ] utk-production
+      - [ ] viva-production
+      - [ ] enact
+      - [ ] tools
+
+      ### Hyrax / Hyku apps
+      - [ ] hykuup_knapsack
+      - [ ] palni_palci_knapsack
+      - [ ] enact
+      - [ ] ethos
+      - [ ] hyku
+      - [ ] hyrax
+
+      ### Other Ruby apps
+      - [ ] princeton_manifold
+      - [ ] viva
+      - [ ] ansur
+
+      ### Utilities
+      - [ ] Solr
+      - [ ] Postgres
+
+
+**Clockify Project**:
