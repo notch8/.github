@@ -25,6 +25,11 @@ body:
       - [ ] enact
       - [ ] tools
 
+     ### Non-cluster environments
+     - [ ] Adventist staging
+     - [ ] Adventist production
+     - [ ] CalState
+
       ### Hyrax / Hyku apps
       - [ ] hykuup_knapsack
       - [ ] palni_palci_knapsack
@@ -32,6 +37,8 @@ body:
       - [ ] ethos
       - [ ] hyku
       - [ ] hyrax
+      - [ ] adventist_knapsack
+      - [ ] CalState
 
       ### Other Ruby apps
       - [ ] princeton_manifold
